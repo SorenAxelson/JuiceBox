@@ -1,4 +1,4 @@
-const { updatePost, createPost } = require('../db');
+const { updatePost, createPost, getAllPosts, getPostById } = require('../db');
 const { requireUser } = require('./utils');
 
 postsRouter.get('/', async (req, res, next) => {

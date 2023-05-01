@@ -1,9 +1,9 @@
 const PORT = 3000;
-const express = require("express");
+const express = require("express");3
 const server = express();
 
 server.get("/hello", () => {
-  console.log("shut up you fat mongrel you smell like cheeto dust innit");
+  console.log("hello");
 });
 
 server.listen(PORT, () => {
